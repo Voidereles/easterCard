@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Indie Flower';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../Indie_Flower/IndieFlower-Regular.ttf');
+}
+
+
+$aqua: #4C6D73;
+$carrot: #FF4835;
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+    color: $aqua;
+    margin-top: 2vh;
+}
+
+.mr-3 {
+    margin-right: 1.25rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fontSize-L {
+    font-size: 1.5rem;
+}
+
+.font-orange {
+    color: $carrot;
+}
