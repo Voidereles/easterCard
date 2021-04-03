@@ -10,6 +10,8 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#E9FCFF), to(rgba(233, 252, 255, 0.16)));
+  background: linear-gradient(180deg, #E9FCFF 0%, rgba(233, 252, 255, 0.16) 100%);
 }
 
 .p-2 {
@@ -53,5 +55,17 @@ h3 {
 
 .font-orange {
   color: #FF4835;
+}
+
+.font-aqua {
+  color: #4C6D73;
+}
+
+.font-dark {
+  color: #2F3136;
+}
+
+.font-purple {
+  color: #DA3AAF;
 }
 /*# sourceMappingURL=predefinied.css.map */

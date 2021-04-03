@@ -19,24 +19,36 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header class="header text-right p-2">
+    <header class="header text-right p-2 d-sm-none">
         Projekt i wykonanie: ARKNE
     </header>
     <main>
         <div class="container">
-
             <picture>
-                <img src="./images/logo.svg" alt="">
+                <img class="company-logo" src="./images/logo.svg" alt="">
             </picture>
-            <h1>Smacznej szynki i jajeczka w ten świąteczny ranek, a w koszyczku wielkanocnym samych niespodzianek</h1>
-            <h2 class="text-right mr-3">życzą pracownicy ARKNE.</h2>
-            <div class="mt-5 text-center font-orange fontSize-L">Minigra jest niedostępna na urządzeniach mobilnych.
+            <h1 class="wishes__text">Smacznej szynki i jajeczka w ten świąteczny ranek, a w koszyczku wielkanocnym
+                samych niespodzianek</h1>
+            <h2 class="wishes__who-wish text-right mr-3">życzą pracownicy ARKNE.</h2>
+            <div class="mt-5 text-center font-orange fontSize-L d-sm-none">Minigra jest niedostępna na
+                urządzeniach mobilnych.
+            </div>
+
+            <div class="button-group d-none d-sm-block">
+                <a class="btn font-orange" href="#">Zagraj w grę</a>
+                <a class="btn font-aqua" href="#">Zasady gry</a>
+                <a class="btn font-dark" href="#">Ranking</a>
+                <a class="btn font-purple" href="#">Zaproś znajomego</a>
             </div>
         </div>
     </main>
 
     <footer>
-
+        <nav class="footer__nav d-none d-sm-flex">
+            <a class="footer__link" href="#">Polityka prywatności</a>
+            <a class="footer__link" href="#">Regulamin</a>
+            <a class="footer__link" href="#">Projekt i wykonanie: Arkne</a>
+        </nav>
         <picture>
             <source srcset="./images/wielkanoc-desktop.png" media="(min-width: 800px)">
             <img class="footer__img" src="./images/wielkanoc-mobile.png" alt="wielkanocny króliczek" />

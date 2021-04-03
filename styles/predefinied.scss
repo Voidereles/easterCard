@@ -8,12 +8,15 @@
 
 $aqua: #4C6D73;
 $carrot: #FF4835;
+$dark: #2F3136;
+$purple: #DA3AAF;
 
 body {
     font-family: 'Indie Flower', cursive;
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    background: linear-gradient(180deg, #E9FCFF 0%, rgba(233, 252, 255, 0.16) 100%);
 }
 
 .p-2 {
@@ -57,4 +60,16 @@ h3 {
 
 .font-orange {
     color: $carrot;
+}
+
+.font-aqua {
+    color: $aqua;
+}
+
+.font-dark {
+    color: $dark;
+}
+
+.font-purple {
+    color: $purple;
 }
